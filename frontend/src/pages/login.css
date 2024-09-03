@@ -1,0 +1,20 @@
+/* App.css */
+.App {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .circle {
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    background-color: #3498db;
+    border-radius: 50%;
+    pointer-events: none;
+    transition: transform 0.1s ease-out;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+  }
+  
